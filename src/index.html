@@ -3,13 +3,46 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
     <title>LeaderBoard</title>
   </head>
   <body>
-    <div class="wrapper" id="container">
-      
-    </div>
+    <section>
+      <h1 class="title">Leaderboard</h1>
+
+      <div class="wrapper" id="container">
+        <div class="display">
+          <div class="head-score">
+            <h2>Recent Scores</h2>
+            <button class="refresh-btn">refresh</button>
+          </div>
+          <ul class="all-scores">
+            <li class="list-item">Name: 100</li>
+            <li class="list-item">Name: 74</li>
+            <li class="list-item">Name: 80</li>
+            <li class="list-item">Name: 70</li>
+            <li class="list-item">Name: 60</li>
+            <li class="list-item">Name: 10</li>
+          </ul>
+        </div>
+
+        <div class="user-input">
+          <h2>Add your score</h2>
+          <input type="text" name="name" id="name" placeholder="Your name" />
+          <input
+            type="number"
+            name="score"
+            id="score"
+            placeholder="Your score"
+          />
+          <button class="btn" type="submit">Submit</button>
+        </div>
+      </div>
+    </section>
+
     <script
       src="https://kit.fontawesome.com/57d41c84f5.js"
       crossorigin="anonymous"
