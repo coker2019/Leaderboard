@@ -11,4 +11,66 @@ body {
   background-color: white;
 }
 
+section {
+  width: 80%;
+  margin: 4rem auto;
+}
 
+h1 {
+  font: 24px;
+  font-weight: 700;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 2rem 0;
+  gap: 2rem;
+}
+
+.head-score {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 1rem;
+}
+
+.refresh-btn {
+  width: 20%;
+  align-self: flex-end;
+  padding: 0.2rem;
+}
+
+.all-scores {
+  border: 2px solid black;
+}
+
+.list-item {
+  padding: 0.5rem;
+}
+
+.list-item:nth-child(even) {
+  background-color: rgb(211, 204, 204);
+}
+
+.user-input {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.user-input h2,
+input {
+  margin-bottom: 1rem;
+}
+
+input {
+  padding: 0.5rem;
+}
+
+.btn {
+  width: 20%;
+  align-self: flex-end;
+  padding: 0.2rem;
+  background: transparent;
+  cursor: pointer;
+}

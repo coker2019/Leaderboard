@@ -17,11 +17,9 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 [MY To-DO-list] <a name="about-project"></a>
-The project is my To-do-List
-It a project to add my activities for the day.
-Activities are added and deleted when its done.
-
+# 📖 [LeaderBoard] <a name="about-project"></a>
+The project is a leaderboard website displays scores submitted by different players. 
+It also allows you to submit your score. 
 
 
 
@@ -40,11 +38,11 @@ Key Features
 key features of the application:
 - The app allows add Activity for the day.
 - Accepts data.
-- Activities can be deleted.
+- Allows user to view recent scores
 - Allows users to view and information.
-- The app displays on both mobile and desktop.
-- Add and remove functions will be implemented.
-- Add interactions that clears all To-Do-List.
+- 
+- 
+- 
 
 
 
@@ -54,10 +52,10 @@ key features of the application:
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [Live Demo Link]--https://coker2019.github.io/To-do-List/dist/
+- [Live Demo Link]--Coming soon
 
 
-<p align="right">(<a href="#readme-top">https://coker2019.github.io/To-do-List/dist/</a>)</p>
+<p align="right">(<a href="#readme-top"></a>)</p>
 
 <!-- GETTING STARTED -->
 
@@ -77,8 +75,8 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:
 
-- With a git cmd, git bash or visual studio terminal, clone repo with **``git@github.com:coker2019/To-do-List.git``** to download the repository locally on your machine.
-- Then you navigate to the folder in your code editor with the command *``cd COKER_TO-DO-LIST``*.
+- With a git cmd, git bash or visual studio terminal, clone repo with **``git@github.com:coker2019/Leaderboard.git``** to download the repository locally on your machine.
+- Then you navigate to the folder in your code editor with the command *``cd coker2019/leaderboard``*.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -107,8 +105,7 @@ Clone this repository to your desired folder:
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
-- Add and remove functions will be implemented.
-- Add interactions that clears all To-Do-List.
+- send and receive data from API
 - Live Demo.
 
 
