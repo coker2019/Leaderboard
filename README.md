@@ -1,6 +1,6 @@
 <a name="readme-top"></a>
 
-  <h3><b>Microverse README Template</b></h3>
+  <h3><b>LeaderBoard</b></h3>
 
 </div>
 # 📗 Table of Contents
