@@ -17,19 +17,15 @@
         <div class="display">
           <div class="head-score">
             <h2>Recent Scores</h2>
-            <button class="refresh-btn">refresh</button>
+            <button class="refresh-btn" id="refresh">refresh</button>
           </div>
           <ul class="all-scores">
-            <li class="list-item">Name: 100</li>
-            <li class="list-item">Name: 74</li>
-            <li class="list-item">Name: 80</li>
-            <li class="list-item">Name: 70</li>
-            <li class="list-item">Name: 60</li>
-            <li class="list-item">Name: 10</li>
+          <!-- Build dynamically -->
           </ul>
         </div>
 
         <div class="user-input">
+        <form action="" id="DataForm">
           <h2>Add your score</h2>
           <input type="text" name="name" id="name" placeholder="Your name" />
           <input
@@ -39,6 +35,7 @@
             placeholder="Your score"
           />
           <button class="btn" type="submit">Submit</button>
+        </form>
         </div>
       </div>
     </section>
