@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -17,8 +19,15 @@ section {
 }
 
 h1 {
-  font: 24px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5rem;
   font-weight: 700;
+}
+
+h2{
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
 }
 
 .wrapper {
@@ -52,8 +61,13 @@ h1 {
   background-color: rgb(211, 204, 204);
 }
 
-.user-input {
-  width: 80%;
+form {
+  width: 100%;
+}
+
+.user-input,
+form {
+  width: 85%;
   display: flex;
   flex-direction: column;
 }
@@ -68,9 +82,18 @@ input {
 }
 
 .btn {
-  width: 20%;
-  align-self: flex-end;
+  width: 100px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 0.2rem;
   background: transparent;
   cursor: pointer;
+  border-radius: 2px;
+}
+
+.btn:hover {
+  background-color: #12bb6f;
+  color: #fff;
 }
