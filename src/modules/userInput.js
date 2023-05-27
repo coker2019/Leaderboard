@@ -1,4 +1,4 @@
-import { postData  } from './getApi.js';
+import { postData } from './getApi.js';
 
 const postUserData = (e) => {
   e.preventDefault();
@@ -10,7 +10,7 @@ const postUserData = (e) => {
     score: playerScore,
   };
 
-  postData (player);
+  postData(player);
   document.getElementById('DataForm').reset();
 };
 
