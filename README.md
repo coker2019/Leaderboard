@@ -20,6 +20,7 @@
 # 📖 [LeaderBoard] <a name="about-project"></a>
 The project is a leaderboard website displays scores submitted by different players. 
 It also allows you to submit your score. 
+it saves the scores.
 
 
 
@@ -40,7 +41,7 @@ key features of the application:
 - Accepts data.
 - Allows user to view recent scores
 - Allows users to view and information.
-- 
+- save scores for the game.
 - 
 - 
 
